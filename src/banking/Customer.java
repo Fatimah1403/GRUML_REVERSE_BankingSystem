@@ -2,7 +2,7 @@ package banking;
 
 public class Customer {
     private String customerId;
-    private String name;
+    private String name; // name of the bank
     private BankAccount account;
 
     public Customer(String customerId, String name) {
