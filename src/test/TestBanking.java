@@ -1,4 +1,4 @@
-package banking.test;
+package test;
 
 import banking.*;
 
