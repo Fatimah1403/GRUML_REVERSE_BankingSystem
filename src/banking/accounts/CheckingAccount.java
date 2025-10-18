@@ -6,8 +6,8 @@ import java.time.LocalDateTime;
 
 public class CheckingAccount extends BankAccount {
     private double overdraftLimit;
-    private int freeTransactions;
-    private int transactionCount;
+    protected int freeTransactions;
+    protected int transactionCount;
 
     public CheckingAccount(String accountNumber, double initialDeposit) {
         super(accountNumber, initialDeposit);
